@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import { RandomCats } from './components/RandomCats/RandomCats';
+import { RhymesSearch } from './components/RhymesSearch/RhymesSearch';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/randomCats" element={< RandomCats />} />
+          <Route path="/rhymesSearch" element={< RhymesSearch />} />
         </Routes>
       </Router>
     </div>
