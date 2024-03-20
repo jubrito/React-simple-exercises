@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { RandomCats } from './components/RandomCats/RandomCats';
 import { RhymesSearch } from './components/RhymesSearch/RhymesSearch';
+import { FormPlanet } from './components/PlanetSearch/FormPlanet';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/randomCats" element={< RandomCats />} />
           <Route path="/rhymesSearch" element={< RhymesSearch />} />
+          <Route path="/planetSearch" element={< FormPlanet />} />
         </Routes>
       </Router>
     </div>
